@@ -37,7 +37,7 @@ export const TitleMessage   = () => {
               Hi, I am
               <br />
               <span>
-                <strong>Anand Kumar Jha</strong>
+                <strong>Hermes Sánchez</strong>
               </span>
             </div>
             <div className="sub">
