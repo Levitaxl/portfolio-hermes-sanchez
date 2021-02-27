@@ -6,6 +6,7 @@ import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
 import {Skills} from "./pages/skills/skills.component";
 import {Experience} from './pages/experience/experience.component'
+import TimeLine from "./components/projects-timeline/projects-timeline.component";
 
 //Components
 
@@ -56,6 +57,12 @@ const  App =  () => {
           </Fade>
         </Container>
       </div>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <TimeLine />
+        </Slide>
+      </Container>
       </div>
       </div>);
 }
