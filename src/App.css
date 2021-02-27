@@ -19,3 +19,7 @@ hr {
     height: 100%;
     z-index: 1;
   }
+
+  .hs-bg-blue{
+    background: #0087C6;
+  }

@@ -4,6 +4,7 @@ import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
+import {Skills} from "./pages/skills/skills.component";
 
 //Components
 
@@ -37,6 +38,14 @@ const  App =  () => {
             </Container>
           </div>
         </Parallax>
+      </div>
+      <div className='hs-bg-blue'>
+        <Container className="container-box rounded">
+          <Slide bottom duration={500}>
+            <hr />
+            <Skills />
+          </Slide>
+        </Container>
       </div>
       </div>);
 }
