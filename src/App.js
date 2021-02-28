@@ -9,6 +9,8 @@ import {Experience} from './pages/experience/experience.component'
 import TimeLine from "./components/projects-timeline/projects-timeline.component";
 import ContactForm from "./pages/contact-form/contact-form.component";
 import FooterPanel from "./components/footer/footer.component";
+import Particles from "react-particles-js";
+import { particlesOptions } from "./particlesOptions";
 //Components
 
 import {MyNavbar}  from './components/mynavbar/mynavbar.component';
@@ -24,6 +26,10 @@ const  App =  () => {
    return (
       <div className='App'>
          <MyNavbar />
+         {<Particles
+        className="particles particles-box"
+        params={particlesOptions}
+      /> }
          <TitleMessage/>
          <MyCarousel />
          <div>
