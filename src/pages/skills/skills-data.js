@@ -23,7 +23,13 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_GOLANG from "../../assets/img/skills/go-6.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
-
+import L_VUEJS  from '../../assets/img/skills/vuejs.svg';
+import L_PHP    from  '../../assets/img/skills/php.svg';
+import L_JAVA    from  '../../assets/img/skills/java.svg';
+import L_LARAVEL    from  '../../assets/img/skills/laravel.svg';
+import L_CODEIGNITER    from  '../../assets/img/skills/codeigniter.svg';
+import L_MYSQL    from  '../../assets/img/skills/mysql.svg';
+import L_CPANEL   from '../../assets/img/skills/CPanel_logo.svg'
 export const skills = {
   frontend: [
     {
@@ -68,30 +74,18 @@ export const skills = {
       imgSrc: L_REDUX,
       skillName: "Redux",
     },
-    {
-      link: "https://reacttraining.com/react-router/",
-      imgAltText: "React Router",
-      imgSrc: L_REACT_ROUTER,
-      skillName: "React Router",
-    },
-    {
+    /*{
       link: "https://material-ui.com/",
       imgAltText: "Material-UI",
       imgSrc: L_MATERIALUI,
       skillName: "Material-UI",
-    },
+    },*/
     {
-      link: "https://react-bootstrap.github.io/",
-      imgAltText: "React Bootstrap",
-      imgSrc: L_REACT_BOOTSTRAP,
-      skillName: "React Bootstrap",
-    },
-    {
-      link: "https://styled-components.com/",
-      imgAltText: "styled-components",
-      imgSrc: L_STYLED_COMPONENTS,
-      skillName: "styled-components",
-    },
+      link: "https://commons.wikimedia.org/wiki/File:Vue.js_Logo_2.svg",
+      imgAltText: "VueJS",
+      imgSrc: L_VUEJS,
+      skillName: "VueJS",
+    }
     
   ],
 
@@ -109,16 +103,28 @@ export const skills = {
       skillName: "Express",
     },
     {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
+      link: "https://www.php.net/",
+      imgAltText: "PHP",
+      imgSrc: L_PHP,
+      skillName: "PHP",
     },
     {
-      link: "https://flask.palletsprojects.com/",
-      imgAltText: "Flask",
-      imgSrc: L_FLASK,
-      skillName: "Flask",
+      link: "https://laravel.com/",
+      imgAltText: "Laravel",
+      imgSrc: L_LARAVEL,
+      skillName: 'Laravel',
+    },
+    {
+      link: "http://codeigniter.com/",
+      imgAltText: "Codeigniter",
+      imgSrc: L_CODEIGNITER,
+      skillName: 'Codeigniter',
+    },
+    {
+      link: "https://www.java.com/",
+      imgAltText: "Java",
+      imgSrc: L_JAVA,
+      skillName: 'Java',
     },
   ],
   hostingPlatforms: [
@@ -129,16 +135,16 @@ export const skills = {
       skillName: "Heroku",
     },
     {
-      link: "https://www.digitalocean.com/",
-      imgAltText: "Digital Ocean",
-      imgSrc: L_DIGITAL_OCEAN,
-      skillName: "Digital Ocean",
-    },
-    {
       link: "https://pages.github.com/",
       imgAltText: "GitHub Pages",
       imgSrc: L_GITHUB_PAGES,
       skillName: "GitHub Pages",
+    },
+    {
+      link: "https://cpanel.net/",
+      imgAltText: "Cpanel",
+      imgSrc:    L_CPANEL,
+      skillName: "Cpanel",
     },
   ],
   programmingLanguages: [
@@ -174,17 +180,17 @@ export const skills = {
       imgSrc: L_POSTGRESQL,
       skillName: "PostgreSQL",
     },
-    {
-      link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-      imgAltText: "MS-SQL",
-      imgSrc: L_MSSQL,
-      skillName: "MS-SQL",
-    },
-    {
+    /*{
       link: "https://www.mongodb.com/",
       imgAltText: "MongoDB",
       imgSrc: L_MONGODB,
       skillName: "MongoDB",
+    },*/
+    {
+      link: "https://www.mysql.com/",
+      imgAltText: "MysSQL",
+      imgSrc: L_MYSQL,
+      skillName: "MysSQL",
     },
   ],
   versionControl: [
