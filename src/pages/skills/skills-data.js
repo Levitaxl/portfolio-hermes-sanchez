@@ -95,13 +95,13 @@ export const skills = {
       imgAltText: "Node.js",
       imgSrc: L_NODE_JS,
       skillName: "Node.js",
-    },
+    },/*
     {
       link: "https://expressjs.com/",
       imgAltText: "Express",
       imgSrc: L_EXPRESS,
       skillName: "Express",
-    },
+    },*/
     {
       link: "https://www.php.net/",
       imgAltText: "PHP",
@@ -199,6 +199,18 @@ export const skills = {
       imgAltText: "GIT",
       imgSrc: L_GIT,
       skillName: "GIT",
+    },
+    {
+      link: "https://wordpress.com/",
+      imgAltText: "Wordpress",
+      imgSrc: 'https://4bmeqmoeekpme49a1bkoqq1e-wpengine.netdna-ssl.com/wp-content/uploads/2017/06/wordpress-logo.svg',
+      skillName: "Wordpress",
+    },
+    {
+      link: "https://www.perfexcrm.com/",
+      imgAltText: "PerfexCRM",
+      imgSrc: 'https://cdn.techjockey.com/web/assets/images/techjockey/products/14668_Perfex.jpg',
+      skillName: "PerfexCRM",
     },
   ],
 };

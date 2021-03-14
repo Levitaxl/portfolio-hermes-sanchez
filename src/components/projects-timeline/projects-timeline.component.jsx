@@ -4,10 +4,11 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 // projects
 import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
 import L_MernTipCalc from "../../assets/img/projects/mern_tip_calc.webp";
-import L_GetGitHubInfo from "../../assets/img/projects/get_github_info.webp";
+import L_Arma_tu_fiesta from "../../assets/img/projects/arma_tu_fiesta.png";
 import L_SmartBrain from "../../assets/img/projects/brain.webp";
-import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
+import L_Banco from "../../assets/img/projects/banco.png";
 import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
+import L_Uno from "../../assets/img/projects/uno.png";
 import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -27,7 +28,13 @@ import L_DJANGO from "../../assets/img/skills/django.svg";
 import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
-
+import L_PHP    from  '../../assets/img/skills/php.svg';
+import L_MYSQL    from  '../../assets/img/skills/mysql.svg';
+import L_VUEJS  from '../../assets/img/skills/vuejs.svg';
+import L_NODEJS from "../../assets/img/skills/nodejs.svg";
+import L_LARAVEL    from  '../../assets/img/skills/laravel.svg';
+import L_JS from "../../assets/img/skills/javascript.svg";
+import L_JAVA    from  '../../assets/img/skills/java.svg';
 
 import "./projects-timeline-styles.css";
 
@@ -37,463 +44,13 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
-        {/* Project: Todo List With MUI */}
-        <ImageEvent
-            date="01/10/2020"
+           {/* Project: Banco */}
+           <ImageEvent
+            date="31/7/2019"
             className="text-center"
-            text="React ToDo App"
-            src={L_ReactToDoList}
-            alt="React ToDo App"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Keeps track of your Todos</li>
-                          <li>Powered by React and Material UI</li>
-                          <li>Respoisive Design</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_MATERIALUI}
-                                alt="Material-UI"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Material-UI
-                            </span>
-                          </li>
-                          
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://akjha96.github.io/Todo-List-React/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/akjha96/Todo-List-React"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-                <UrlButton
-                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-materialui-fun-activity-6716765686963826688-GIpZ"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-
-{/* Project: MERN Tip Calculator */}
-<ImageEvent
-            date="16/09/2020"
-            className="text-center"
-            text="MERN Tip Calculator"
-            src={L_MernTipCalc}
-            alt="MERN Tip Calculator"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This app calculates Tip for the amount entered and percentage of tip to be given.
-                        It uses MERN stack build to acomplish the same.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Enter amount upto your desire</li>
-                          <li>Real-time API calls with Backend features</li>
-                          <li>Styled with  Material-UI</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_NODE_JS}
-                                alt="Node.js"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Node.js
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_EXPRESS}
-                                alt="Express"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Express
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_MONGODB}
-                                alt="MongoDB"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              MongoDB
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_MATERIALUI}
-                                alt="Material-UI"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Material-UI
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://github.com/akjha96/MernTipCaculator-FrontEnd"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-                <UrlButton
-                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-nodejs-expressjs-activity-6712281977107603456-oH6t"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-          {/* Project: Get GitHub Info */}
-          <ImageEvent
-            date="19/07/2020"
-            className="text-center"
-            text="Get GitHub Info"
-            src={L_GetGitHubInfo}
-            alt="Get GitHub Info"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> An app that searches
-                        people on GitHub with non-private account and see all
-                        their details using GitHub API
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Search any Github profile</li>
-                          <li>Real-time API calls</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_GIT}
-                                alt="Github API"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              GitHub API
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://akjha96.github.io/getGithubInfo/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/akjha96/getGithubInfo"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-                <UrlButton
-                  href="https://www.youtube.com/watch?v=K3h95l2YxmY&feature=youtu.be"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-          {/* Project: Smart Brain */}
-          <ImageEvent
-            date="21/01/2020"
-            className="text-center"
-            text="Smart Brain Face Detect app"
-            src={L_SmartBrain}
-            alt="Smart Brain Face Detect"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> An app that detects face
-                        in a picture.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Register new user</li>
-                          <li>Signin exiting user</li>
-                          <li>Keep tracks of entries for each user</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_NODE_JS}
-                                alt="Node.js"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Node.js
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_EXPRESS}
-                                alt="Express"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Express
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_POSTGRESQL}
-                                alt="PostgreSQL"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              PostgreSQL
-                            </span>
-                          </li>
-                        </ul>
-                        <hr />
-                        <em>
-                          <strong>SignUp/ Signin:</strong>
-                          <br />
-                          <br />
-                          You can <strong>register</strong> as new user or{" "}
-                          <strong>log in</strong> using the demo account below.
-                          <br />
-                          <br />
-                          <strong>Demo Account Details:</strong>
-                          <br />
-                          email: demo@demo.com
-                          <br />
-                          password: demo
-                        </em>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://smart-face-detect-app.herokuapp.com/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/akjha96/Smart_Brain"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-                <UrlButton
-                  href="https://www.youtube.com/watch?v=ZZYSpi_blL0"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-          {/* Project: RoboFriends */}
-
-          <ImageEvent
-            date="14/01/2020"
-            className="text-center"
-            text="RoboFriends"
-            src={L_RoboFriends}
-            alt="Robo Friends"
+            text="Banco"
+            src={L_Banco}
+            alt="Banco"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -546,36 +103,26 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_BOOTSTRAP4}
-                                alt="Bootstrap 4"
+                                src={L_PHP}
+                                alt="PHP"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Bootstrap 4
+                              PHP
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REDUX}
-                                alt="Redux"
+                                src={L_MYSQL}
+                                alt="MYSQL"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Redux
+                              MYSQL
                             </span>
                           </li>
+                        
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -584,13 +131,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://akjha96.github.io/RoboFriends/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/akjha96/RoboFriends"
+                  href="https://github.com/Levitaxl/Banco"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -598,15 +139,13 @@ const TimeLine = () => {
               </div>
             </div>
           </ImageEvent>
-
-          {/* Project: Product_Hunt_Clone */}
-
+          {/* Project: Red-Social*/}
           <ImageEvent
-            date="15/12/2019"
+            date="20/1/2020"
             className="text-center"
-            text="Product Hunt Clone"
-            src={L_ProductHuntClone}
-            alt="Product Hunt Clone"
+            text="Red-Social"
+            src="https://raw.githubusercontent.com/Levitaxl/Red-Social/master/fotos/home1.png"
+            alt="Red-Social"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -622,76 +161,55 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This website is a clone of
-                        Product Hunt built using Django.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Register as new user</li>
-                          <li>Signin as existing user</li>
-                          <li>Raise a Product for people to see and Vote</li>
-                          <li>Delete a product</li>
-                          <li>Like and Dislike a product</li>
-                          <li>Fully funtional Administration panel</li>
-                        </ul>
+                        <strong>Description:</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
+                                src={L_VUEJS}
+                                alt="VUEJS"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
+                              VUEJS
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
                                 src={L_BOOTSTRAP4}
-                                alt="Bootstrap 4"
+                                alt="BOOTSTRAP4"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Bootstrap 4
+                              BOOTSTRAP4
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_DJANGO}
-                                alt="Django"
+                                src={L_NODEJS}
+                                alt="Nodejs"
                                 rounded
-                                className="image-style m-1"
+                                className="image-style1 m-1"
                               ></Image>{" "}
-                              Django
+                              NODEJS
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
                                 src={L_POSTGRESQL}
-                                alt="PostgreSQL"
+                                alt="POSTGRESQL"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              PostgreSQL
+                              POSTGRESQL
                             </span>
                           </li>
+                          
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -700,7 +218,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/akjha96/product_hunt_clone"
+                  href="https://github.com/Levitaxl/Red-Social"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -709,13 +227,13 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-          {/* Project: Portfolio using Django */}
+          {/* Project: Dela Cream */}
           <ImageEvent
-            date="07/12/2019"
+            date="11/2/2020"
             className="text-center"
-            text="Portfolio using Django"
-            src={L_PortfolioUsingDjango}
-            alt="Portfolio using Django"
+            text="Dela Cream"
+            src="https://raw.githubusercontent.com/Levitaxl/Ecommerce/master/fotos/home.png"
+            alt="Dela Cream"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -731,110 +249,213 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is my first portfolio
-                        website built using Django.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Send emails</li>
-                          <li>View my projects</li>
-                          <li>Write a blog</li>
-                          <li>
-                            Hosted using Digital ocean under www.akjfun.com
-                          </li>
-                          <li>Fully funtional Administration panel</li>
-                        </ul>
+                        <strong>Description:</strong> This app calculates Tip for the amount entered and percentage of tip to be given.
+                        It uses MERN stack build to acomplish the same.
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
+                                src={L_VUEJS}
+                                alt="VUEJS"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
+                              VUEJS
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
                                 src={L_BOOTSTRAP4}
-                                alt="Bootstrap 4"
+                                alt="BOOTSTRAP4"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Bootstrap 4
+                              BOOTSTRAP4
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_DJANGO}
-                                alt="Django"
+                                src={L_NODEJS}
+                                alt="Nodejs"
                                 rounded
-                                className="image-style m-1"
+                                className="image-style1 m-1"
                               ></Image>{" "}
-                              Django
+                              NODEJS
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
                                 src={L_POSTGRESQL}
-                                alt="PostgreSQL"
+                                alt="POSTGRESQL"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              PostgreSQL
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_DIGITAL_OCEAN}
-                                alt="Digital Ocean"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Digital-Ocean
+                              POSTGRESQL
                             </span>
                           </li>
                         </ul>
-                        <hr />
-                        <em>
-                          <strong>View Demo Video:</strong>
-                          <br />
-                          <br />
-                          If you are reading this, that means I have updated my
-                          Portfolio website to recent one.
-                          <br />
-                          You can still see a video of my old portfolio by
-                          clicking on the button below.
-                          <br />
-                          <br />
-                        </em>
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://youtu.be/PCwEuW4OmWA" target="_blank">
-                  WATCH VIDEO
+                <UrlButton
+                  href="https://github.com/Levitaxl/Ecommerce"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* Project:Arma Tu Fiesta */}
+          <ImageEvent
+            date="22/4/2020"
+            className="text-center"
+            text="Arma Tu Fiesta"
+            src={L_Arma_tu_fiesta}
+            alt="Arma Tu Fiesta"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> An app that searches
+                        people on GitHub with non-private account and see all
+                        their details using GitHub API
+                        <hr />
+               
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_LARAVEL}
+                                alt="LARAVEL"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              LARAVEL
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="BOOTSTRAP4"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              BOOTSTRAP4
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_POSTGRESQL}
+                                alt="POSTGRESQL"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              POSTGRESQL
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_JS}
+                                alt="JS"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              JAVASCRIPT
+                            </span>
+                          </li>
+                          
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://github.com/Levitaxl/armatufiesta"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* Project: UNO(RS232) */}
+          <ImageEvent
+            date="23/01/2021"
+            className="text-center"
+            text="UNO(RS232)"
+            src={L_Uno}
+            alt="UNO(RS232)"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> An app that detects face
+                        in a picture.
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_JAVA}
+                                alt="JAVA"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              JAVA
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://github.com/Levitaxl/Proyecto-Redes-l"
+                  target="_blank"
+                >
+                  SOURCE CODE
                 </UrlButton>
               </div>
             </div>
