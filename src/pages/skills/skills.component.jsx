@@ -5,19 +5,23 @@ import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Swiper, SwiperSlide } from 'swiper/react';
-//import 'swiper/swiper.scss';
-
+import 'swiper/swiper.min.css';
+import 'swiper/components/navigation/navigation.min.css';
 
 // skills
 import { skills } from "./skills-data";
 
 import "./skills.styles.css";
 
+import SwiperCore, { Navigation } from 'swiper';
+SwiperCore.use([Navigation]);
+
+
 export const Skills = () => {
   return (
     <div className="pt-3 pb-3" id="skills">
       <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
-      <CardDeck class="justify-content-center">
+      <CardDeck className="justify-content-center box-desptok ">
         <Row className="d-flex justify-content-center" >
           {/* Frontend */}
           <Col md={4}>
@@ -120,13 +124,12 @@ export const Skills = () => {
       </CardDeck>
 
 
-     {/* <Swiper
+     <Swiper
        slidesPerView={1}
        navigation
-       pagination={{ clickable: true }}
-       scrollbar={{ draggable: true }}
        onSwiper={(swiper) => console.log(swiper)}
        onSlideChange={() => console.log('slide change')}
+       className="box-mobile"
       >
         <SwiperSlide>
           <Card className="focus mt-2 mb-2">
@@ -160,12 +163,6 @@ export const Skills = () => {
                     </span>
                   ))}
                 </Card.Text>
-              </Card.Body>
-            </Card>
-          </SwiperSlide>
-        <SwiperSlide> 
-          <Card className="focus mt-2 mb-2">
-              <Card.Body>
                 <Card.Title className="text-center  card-title">Database</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
@@ -194,24 +191,21 @@ export const Skills = () => {
                     </span>
                   ))}
                 </Card.Text>
+                <Card.Title className="text-center  card-title">OTHERS</Card.Title>
+                <hr />
+                <Card.Text className="card-text d-flex justify-content-start flex-column">
+                  {skills.versionControl.map((skill, index) => (
+                    <span className="p-2" key={index}>
+                      <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
+                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                      </a>
+                    </span>
+                  ))}
+                </Card.Text>
               </Card.Body>
             </Card>
         </SwiperSlide>
-    </Swiper>*/}
-
-  <Swiper
-      spaceBetween={100}
-      slidesPerView={1}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-    >
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
-      ...
     </Swiper>
-
 
     </div>
   );

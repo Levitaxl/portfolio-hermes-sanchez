@@ -14,18 +14,15 @@ export const Experience = () => {
         <Container>
           
             <Card>
-              <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-                <Card.Img variant="top" className="img-resize" src={L_ACCENTURE} alt="Accenture logo" />
+              <Card.Header as="h7" className="d-flex justify-content-center flex-wrap">
+                <Card.Title className="text-center">Webtiginoso</Card.Title>
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
-                <div>
-                  <Card.Title className="text-center">Developer</Card.Title>
-                </div>
                 <div>
                   <Card.Text className="text-center style">
                     <strong className="body-title-style ">Full Stack Developer</strong>
                     <br />
-                    <strong>Technology:</strong> PHP, CODEIGNITER, HTML, CSS, JS, Jquery, React JS,Mysql  
+                    <strong>Technologies:</strong> PHP, CODEIGNITER, HTML, CSS, JS, Jquery, React JS,Mysql  
                     <br />
                     <strong>Duration:</strong> June 2020 - Present
                     <br/>
