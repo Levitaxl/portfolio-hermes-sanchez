@@ -7,7 +7,6 @@ import Container from "react-bootstrap/Container";
 import {Skills} from "./pages/skills/skills.component";
 import {Experience} from './pages/experience/experience.component'
 import TimeLine from "./components/projects-timeline/projects-timeline.component";
-import Gallery from "./components/gallery/gallery.component";
 import ContactForm from "./pages/contact-form/contact-form.component";
 import FooterPanel from "./components/footer/footer.component";
 import Particles from "react-particles-js";
