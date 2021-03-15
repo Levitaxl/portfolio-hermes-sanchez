@@ -1,5 +1,5 @@
 import React from "react";
-import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
+import { Timeline, Events, UrlButton, ImageEvent,themes,createTheme  } from "@merc/react-timeline";
 
 // projects
 import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
@@ -38,11 +38,27 @@ import L_JAVA    from  '../../assets/img/skills/java.svg';
 
 import "./projects-timeline-styles.css";
 
+const customTheme = createTheme(themes.default, {
+  card: {
+    backgroundColor: '#efefef',
+  },
+  date: {
+    backgroundColor: '#696969',
+  },
+  marker: {
+    borderColor: '#696969',
+  },
+  timelineTrack: {
+    backgroundColor: '#696969',
+  },
+});
+
+
 const TimeLine = () => {
   return (
     <div id="projects">
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
-      <Timeline>
+      <Timeline theme={customTheme}>
         <Events>
            {/* Project: Banco */}
            <ImageEvent
@@ -66,15 +82,8 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that allows to
-                        search through robots fetched in real-time with users.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Search through Robots</li>
-                          <li>Users and Robots being fetched via API call</li>
-                          <li>Usage of Redux store</li>
-                        </ul>
+                        <strong>Description:</strong> 
+                        Web application that simulates banking functionalities
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
@@ -161,7 +170,7 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
+                        <strong>Description:</strong>  Web application that has basic functionalities of a social network such as uploading images, giving likes and adding comments
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
@@ -249,8 +258,7 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This app calculates Tip for the amount entered and percentage of tip to be given.
-                        It uses MERN stack build to acomplish the same.
+                        <strong>Description:</strong> Dela cream is a virtual ice cream shop where you can buy and sell ice cream to the general public.
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
@@ -337,9 +345,10 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that searches
-                        people on GitHub with non-private account and see all
-                        their details using GitHub API
+                        <strong>Description: </strong>
+                        ArmaTuFiesta is a company dedicated to celebration services for everything
+                        type of parties (weddings, birthdays, anniversaries, graduations,
+                        divorces, bachelor parties, among others) throughout the country
                         <hr />
                
                         <strong>Tech used:</strong>
@@ -428,8 +437,8 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that detects face
-                        in a picture.
+                        <strong>Description:</strong> UNO game with RS232 connection.
+
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>

@@ -51,10 +51,40 @@ hr {
       .box-desptok{
         display:none;
       }
+
+      .jumbotron{
+        padding: 1rem 0.5rem;
+      }
     }
 
     @media (max-width:9000px) and (min-width:1024px){
       .box-mobile{
         display:none;
       }
+
+      .jumbotron{
+        padding: 2rem 1rem;
+      }
     }
+
+    .white-line{
+      background:white;
+    }
+
+    .App{
+      background: black!important;
+    }
+
+    .color-white{
+      color:white!important;
+    }
+
+    .jumbo-gray-bg{
+      background:#696969;
+    }
+
+    .accordian-main,.eLXIEq.eLXIEq .url-button{
+      background-color: #808080!important;
+    }
+
+    

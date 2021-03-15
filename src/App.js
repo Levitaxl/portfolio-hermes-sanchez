@@ -40,38 +40,38 @@ const  App =  () => {
           bgImageAlt=""
           strength={-200}
         >
-          <div>
+     
 
             <Container className="container-box rounded">
               <Fade duration={500}>
                 <About />
               </Fade>
-            </Container>
-          </div>
+              </Container>
+      
         </Parallax>
       </div>
-      <div className='hs-bg-blue'>
-        <Container className="container-box rounded">
+      <hr class="white-line"></hr>
+      <Container className="container-box rounded">
           <Slide bottom duration={500}>
             <hr />
             <Skills />
           </Slide>
         </Container>
-        <div>
-        <Container className="container-box rounded">
-          <Fade duration={500}>
-            <hr />
-
-            <Experience />
-          </Fade>
-        </Container>
-      </div>
+      <hr class="white-line"></hr>
+      <Container className="container-box rounded">
+        <Fade duration={500}>
+          <hr />
+          <Experience />
+        </Fade>
+      </Container>
+      <hr class="white-line"></hr>
       <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />
           <TimeLine />
         </Slide>
       </Container>
+      <hr class="white-line"></hr>
       <Container className="container-box rounded">
         <Fade duration={500}>
           <hr />
@@ -81,7 +81,7 @@ const  App =  () => {
       <hr />
       <FooterPanel />
 
-      </div>
+      
       
       </div>);
 }
