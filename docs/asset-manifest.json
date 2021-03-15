@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.2d50cb06.chunk.css",
-    "main.js": "/static/js/main.a6d77e13.chunk.js",
-    "main.js.map": "/static/js/main.a6d77e13.chunk.js.map",
+    "main.js": "/static/js/main.ca4b5b5d.chunk.js",
+    "main.js.map": "/static/js/main.ca4b5b5d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e0029e89.js",
     "runtime-main.js.map": "/static/js/runtime-main.e0029e89.js.map",
     "static/css/2.be2a5938.chunk.css": "/static/css/2.be2a5938.chunk.css",
-    "static/js/2.8b5b876d.chunk.js": "/static/js/2.8b5b876d.chunk.js",
-    "static/js/2.8b5b876d.chunk.js.map": "/static/js/2.8b5b876d.chunk.js.map",
+    "static/js/2.c3671742.chunk.js": "/static/js/2.c3671742.chunk.js",
+    "static/js/2.c3671742.chunk.js.map": "/static/js/2.c3671742.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.be2a5938.chunk.css.map": "/static/css/2.be2a5938.chunk.css.map",
     "static/css/main.2d50cb06.chunk.css.map": "/static/css/main.2d50cb06.chunk.css.map",
-    "static/js/2.8b5b876d.chunk.js.LICENSE.txt": "/static/js/2.8b5b876d.chunk.js.LICENSE.txt",
+    "static/js/2.c3671742.chunk.js.LICENSE.txt": "/static/js/2.c3671742.chunk.js.LICENSE.txt",
     "static/media/CPanel_logo.7f914632.svg": "/static/media/CPanel_logo.7f914632.svg",
     "static/media/React_ToDo_List.1767548b.webp": "/static/media/React_ToDo_List.1767548b.webp",
-    "static/media/Robofriends.1852c702.webp": "/static/media/Robofriends.1852c702.webp",
     "static/media/accenture-3.314419f4.svg": "/static/media/accenture-3.314419f4.svg",
     "static/media/arma_tu_fiesta.60bf463c.png": "/static/media/arma_tu_fiesta.60bf463c.png",
     "static/media/contact-form.styles.css": "/static/media/background.48c0b661.webp",
@@ -28,7 +27,6 @@
     "static/media/django.0779fca2.svg": "/static/media/django.0779fca2.svg",
     "static/media/express.75fff9be.svg": "/static/media/express.75fff9be.svg",
     "static/media/flask.611b5611.svg": "/static/media/flask.611b5611.svg",
-    "static/media/get_github_info.bea69aab.webp": "/static/media/get_github_info.bea69aab.webp",
     "static/media/git-icon.c60b7e5a.svg": "/static/media/git-icon.c60b7e5a.svg",
     "static/media/github-api.3a5ccf39.svg": "/static/media/github-api.3a5ccf39.svg",
     "static/media/github.740db6be.svg": "/static/media/github.740db6be.svg",
@@ -67,8 +65,8 @@
   "entrypoints": [
     "static/js/runtime-main.e0029e89.js",
     "static/css/2.be2a5938.chunk.css",
-    "static/js/2.8b5b876d.chunk.js",
+    "static/js/2.c3671742.chunk.js",
     "static/css/main.2d50cb06.chunk.css",
-    "static/js/main.a6d77e13.chunk.js"
+    "static/js/main.ca4b5b5d.chunk.js"
   ]
 }

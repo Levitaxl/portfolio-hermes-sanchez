@@ -16,7 +16,7 @@ export const About = () => {
               <Row className="pt-3 pb-5 align-items-center">
                 <Col xs={12} md={6}>
                   <Row className="justify-content-center mb-2">
-                    <Image className="profile justify-content-center" alt="profile" src={Hermes} thumbnail fluid />
+                    <Image className="profile justify-content-center" alt="profile" src={'.'+Hermes} thumbnail fluid />
                   </Row>
                 </Col>
                 <Col xs={12} md={6}>

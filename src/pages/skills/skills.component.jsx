@@ -34,7 +34,7 @@ export const Skills = () => {
                   {skills.frontend.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                        <Image src={'.'+skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
                       </a>
                     </span>
                   ))}
@@ -52,7 +52,7 @@ export const Skills = () => {
                   {skills.backend.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                        <Image src={'.'+skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
                       </a>
                     </span>
                   ))}
@@ -70,7 +70,7 @@ export const Skills = () => {
                   {skills.databases.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                        <Image src={'.'+skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
                       </a>
                     </span>
                   ))}
@@ -93,7 +93,7 @@ export const Skills = () => {
                   {skills.hostingPlatforms.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                        <Image src={'.'+skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
                       </a>
                     </span>
                   ))}
@@ -109,7 +109,7 @@ export const Skills = () => {
                   {skills.versionControl.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                        <Image src={'.'+skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
                       </a>
                     </span>
                   ))}
@@ -141,7 +141,7 @@ export const Skills = () => {
                   {skills.frontend.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                        <Image src={'.'+skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
                       </a>
                     </span>
                   ))}
@@ -158,7 +158,7 @@ export const Skills = () => {
                   {skills.backend.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                        <Image src={'.'+skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
                       </a>
                     </span>
                   ))}
@@ -169,7 +169,7 @@ export const Skills = () => {
                   {skills.databases.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                        <Image src={'.'+skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
                       </a>
                     </span>
                   ))}
@@ -186,7 +186,7 @@ export const Skills = () => {
                   {skills.hostingPlatforms.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                        <Image src={'.'+skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
                       </a>
                     </span>
                   ))}
@@ -197,7 +197,7 @@ export const Skills = () => {
                   {skills.versionControl.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                        <Image src={'.'+skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
                       </a>
                     </span>
                   ))}
