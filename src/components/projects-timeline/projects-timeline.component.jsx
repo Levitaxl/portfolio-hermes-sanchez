@@ -65,7 +65,7 @@ const TimeLine = () => {
             date="31/7/2019"
             className="text-center"
             text="Banco"
-            src={'.'+L_Banco}
+            src={L_Banco}
             alt="Banco"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -90,7 +90,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_HTML5}
+                                src={L_HTML5}
                                 alt="HTML 5"
                                 rounded
                                 className="image-style m-1"
@@ -101,7 +101,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_CSS3}
+                                src={L_CSS3}
                                 alt="CSS 3"
                                 rounded
                                 className="image-style m-1"
@@ -112,7 +112,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_PHP}
+                                src={L_PHP}
                                 alt="PHP"
                                 rounded
                                 className="image-style m-1"
@@ -123,7 +123,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_MYSQL}
+                                src={L_MYSQL}
                                 alt="MYSQL"
                                 rounded
                                 className="image-style m-1"
@@ -177,7 +177,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_VUEJS}
+                                src={L_VUEJS}
                                 alt="VUEJS"
                                 rounded
                                 className="image-style m-1"
@@ -188,7 +188,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_BOOTSTRAP4}
+                                src={L_BOOTSTRAP4}
                                 alt="BOOTSTRAP4"
                                 rounded
                                 className="image-style m-1"
@@ -199,7 +199,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_NODEJS}
+                                src={L_NODEJS}
                                 alt="Nodejs"
                                 rounded
                                 className="image-style1 m-1"
@@ -210,7 +210,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_POSTGRESQL}
+                                src={L_POSTGRESQL}
                                 alt="POSTGRESQL"
                                 rounded
                                 className="image-style1 m-1"
@@ -265,7 +265,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_VUEJS}
+                                src={L_VUEJS}
                                 alt="VUEJS"
                                 rounded
                                 className="image-style m-1"
@@ -276,7 +276,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_BOOTSTRAP4}
+                                src={L_BOOTSTRAP4}
                                 alt="BOOTSTRAP4"
                                 rounded
                                 className="image-style m-1"
@@ -287,7 +287,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_NODEJS}
+                                src={L_NODEJS}
                                 alt="Nodejs"
                                 rounded
                                 className="image-style1 m-1"
@@ -298,7 +298,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_POSTGRESQL}
+                                src={L_POSTGRESQL}
                                 alt="POSTGRESQL"
                                 rounded
                                 className="image-style1 m-1"
@@ -328,7 +328,7 @@ const TimeLine = () => {
             date="22/4/2020"
             className="text-center"
             text="Arma Tu Fiesta"
-            src={'.'+L_Arma_tu_fiesta}
+            src={L_Arma_tu_fiesta}
             alt="Arma Tu Fiesta"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -356,7 +356,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_LARAVEL}
+                                src={L_LARAVEL}
                                 alt="LARAVEL"
                                 rounded
                                 className="image-style m-1"
@@ -367,7 +367,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_BOOTSTRAP4}
+                                src={L_BOOTSTRAP4}
                                 alt="BOOTSTRAP4"
                                 rounded
                                 className="image-style m-1"
@@ -378,7 +378,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_POSTGRESQL}
+                                src={L_POSTGRESQL}
                                 alt="POSTGRESQL"
                                 rounded
                                 className="image-style1 m-1"
@@ -389,7 +389,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_JS}
+                                src={L_JS}
                                 alt="JS"
                                 rounded
                                 className="image-style1 m-1"
@@ -420,7 +420,7 @@ const TimeLine = () => {
             date="23/01/2021"
             className="text-center"
             text="UNO(RS232)"
-            src={'.'+L_Uno}
+            src={L_Uno}
             alt="UNO(RS232)"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -445,7 +445,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={'.'+L_JAVA}
+                                src={L_JAVA}
                                 alt="JAVA"
                                 rounded
                                 className="image-style1 m-1"
