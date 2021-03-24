@@ -30,6 +30,8 @@ import L_LARAVEL    from  '../../assets/img/skills/laravel.svg';
 import L_CODEIGNITER    from  '../../assets/img/skills/codeigniter.svg';
 import L_MYSQL    from  '../../assets/img/skills/mysql.svg';
 import L_CPANEL   from '../../assets/img/skills/CPanel_logo.svg'
+import L_WORDPRESS   from '../../assets/img/skills/wordpress.svg'
+import L_PERFEX   from '../../assets/img/skills/perfex.webp'
 export const skills = {
   frontend: [
     {
@@ -145,7 +147,7 @@ export const skills = {
       imgAltText: "Cpanel",
       imgSrc:    L_CPANEL,
       skillName: "Cpanel",
-    },
+    }
   ],
   programmingLanguages: [
     {
@@ -203,13 +205,13 @@ export const skills = {
     {
       link: "https://wordpress.com/",
       imgAltText: "Wordpress",
-      imgSrc: 'https://4bmeqmoeekpme49a1bkoqq1e-wpengine.netdna-ssl.com/wp-content/uploads/2017/06/wordpress-logo.svg',
+      imgSrc: L_WORDPRESS,
       skillName: "Wordpress",
     },
     {
       link: "https://www.perfexcrm.com/",
       imgAltText: "PerfexCRM",
-      imgSrc: 'https://cdn.techjockey.com/web/assets/images/techjockey/products/14668_Perfex.jpg',
+      imgSrc: L_PERFEX,
       skillName: "PerfexCRM",
     },
   ],

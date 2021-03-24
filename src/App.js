@@ -24,7 +24,7 @@ import {About} from './pages/about/about.component';
 
 const  App =  () => {
    return (
-      <div className='App'>
+      <div className='App' style={{ position: "relative" }}>
          <MyNavbar />
          {<Particles
         className="particles particles-box"
