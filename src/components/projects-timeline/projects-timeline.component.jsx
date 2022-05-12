@@ -2,14 +2,11 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent,themes,createTheme  } from "@merc/react-timeline";
 
 // projects
-import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
-import L_MernTipCalc from "../../assets/img/projects/mern_tip_calc.webp";
 import L_Arma_tu_fiesta from "../../assets/img/projects/arma_tu_fiesta.png";
-import L_SmartBrain from "../../assets/img/projects/brain.webp";
 import L_Banco from "../../assets/img/projects/banco.png";
-import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
+import L_Sockets from "../../assets/img/projects/sockets.png";
+import L_python_c from   "../../assets/img/projects/python_competencies.png";
 import L_Uno from "../../assets/img/projects/uno.png";
-import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -35,6 +32,7 @@ import L_NODEJS from "../../assets/img/skills/nodejs.svg";
 import L_LARAVEL    from  '../../assets/img/skills/laravel.svg';
 import L_JS from "../../assets/img/skills/javascript.svg";
 import L_JAVA    from  '../../assets/img/skills/java.svg';
+import L_PYTHON    from  '../../assets/img/skills/python.svg';
 
 import "./projects-timeline-styles.css";
 
@@ -469,6 +467,210 @@ const TimeLine = () => {
               </div>
             </div>
           </ImageEvent>
+
+
+          {/* Project: SOCKET CONNECTIOn */}
+          <ImageEvent
+            date="19/11/2021"
+            className="text-center"
+            text="SOCKET CONNECTION (TCP/IP/UDP)"
+            src={L_Sockets}
+            alt="SOCKET CONNECTION (TCP/IP/UDP)"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Project that uses TCP/IP or UDP sockets for the transfer of information.
+
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_JAVA}
+                                alt="JAVA"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              JAVA
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://github.com/Levitaxl/Mini-aplicativo-distribuidos/tree/main/src/mini_aplicativo"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* Project: Python User COMPETENCIES  */}
+          <ImageEvent
+            date="26/11/2021"
+            className="text-center"
+            text="PYTHON USER COMPETENCIES"
+            src={L_python_c}
+            alt="SPYTHON USER COMPETENCIES"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> PYTHON USER COMPETENCIES is a project that manages the handling of user information through json, using SOLID principles
+
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_PYTHON}
+                                alt="Python"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Python
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://github.com/Levitaxl/Proyecto-1-python/tree/main"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+
+          {/* Project: UCABDITO  */}
+          <ImageEvent
+            date="29/01/2022"
+            className="text-center"
+            text="UCABDITO"
+            src={L_python_c}
+            alt="UCABDITO"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Ucabdito is a virtual food shop.
+
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                              //test
+                                src={L_LARAVEL}
+                                alt="Laravel"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Laravel
+                              </span>
+                            </li>
+                            <li>
+                            <span className="p-2">
+                              <Image
+                              //test
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                              </span>
+                            </li>
+
+                            <li>
+                            <span className="p-2">
+                              <Image
+                              //test
+                                src={L_POSTGRESQL}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Postgresql
+                              </span>
+                            </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-left flex-nowrap text-center">
+                <UrlButton
+                  href="https://github.com/Levitaxl/Ucabdito"
+                  target="_blank"
+                >
+                  SOURCE BACKEND
+                </UrlButton>
+
+                <UrlButton
+                  href="https://github.com/Levitaxl/Proyecto-SQA-React"
+                  target="_blank"
+                >
+                  SOURCE FRONTEND
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+
+
+
         </Events>
       </Timeline>
     </div>
