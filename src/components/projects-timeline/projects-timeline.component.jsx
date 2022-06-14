@@ -6,6 +6,7 @@ import L_Arma_tu_fiesta from "../../assets/img/projects/arma_tu_fiesta.png";
 import L_Banco from "../../assets/img/projects/banco.png";
 import L_Sockets from "../../assets/img/projects/sockets.png";
 import L_python_c from   "../../assets/img/projects/python_competencies.png";
+import L_ucabdito from   "../../assets/img/projects/ucabdito.png";
 import L_Uno from "../../assets/img/projects/uno.png";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -58,94 +59,6 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline theme={customTheme}>
         <Events>
-           {/* Project: Banco */}
-           <ImageEvent
-            date="31/7/2019"
-            className="text-center"
-            text="Banco"
-            src={L_Banco}
-            alt="Banco"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> 
-                        Web application that simulates banking functionalities
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_PHP}
-                                alt="PHP"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              PHP
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_MYSQL}
-                                alt="MYSQL"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              MYSQL
-                            </span>
-                          </li>
-                        
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://github.com/Levitaxl/Banco"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
           {/* Project: Red-Social*/}
           <ImageEvent
             date="20/1/2020"
@@ -233,7 +146,6 @@ const TimeLine = () => {
               </div>
             </div>
           </ImageEvent>
-
           {/* Project: Dela Cream */}
           <ImageEvent
             date="11/2/2020"
@@ -321,98 +233,6 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-          {/* Project:Arma Tu Fiesta */}
-          <ImageEvent
-            date="22/4/2020"
-            className="text-center"
-            text="Arma Tu Fiesta"
-            src={L_Arma_tu_fiesta}
-            alt="Arma Tu Fiesta"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description: </strong>
-                        ArmaTuFiesta is a company dedicated to celebration services for everything
-                        type of parties (weddings, birthdays, anniversaries, graduations,
-                        divorces, bachelor parties, among others) throughout the country
-                        <hr />
-               
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_LARAVEL}
-                                alt="LARAVEL"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              LARAVEL
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_BOOTSTRAP4}
-                                alt="BOOTSTRAP4"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              BOOTSTRAP4
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_POSTGRESQL}
-                                alt="POSTGRESQL"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              POSTGRESQL
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_JS}
-                                alt="JS"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              JAVASCRIPT
-                            </span>
-                          </li>
-                          
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://github.com/Levitaxl/armatufiesta"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
           {/* Project: UNO(RS232) */}
           <ImageEvent
             date="23/01/2021"
@@ -467,7 +287,6 @@ const TimeLine = () => {
               </div>
             </div>
           </ImageEvent>
-
 
           {/* Project: SOCKET CONNECTIOn */}
           <ImageEvent
@@ -579,13 +398,12 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-
           {/* Project: UCABDITO  */}
           <ImageEvent
             date="29/01/2022"
             className="text-center"
             text="UCABDITO"
-            src={L_python_c}
+            src={L_ucabdito}
             alt="UCABDITO"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -667,9 +485,6 @@ const TimeLine = () => {
               </div>
             </div>
           </ImageEvent>
-
-
-
 
         </Events>
       </Timeline>

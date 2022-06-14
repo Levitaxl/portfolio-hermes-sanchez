@@ -28,9 +28,11 @@ export const Experience = () => {
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-left">
-                      <li>Creation of several web pages using wordpress as cms</li>
-                      <li>Creation of web pages and plugins using Perfex CRM</li>
-                      <li>Using php with frameworks (Laravel, Codeigniter) to create web applications</li>
+                      <li>Layout of web interfaces using html/css/javascript</li>
+                      <li>Development of web pages and e-commerces, based on php (codeigniter/Laravel)</li>
+                      <li>Creation of plugins for the cms Wordpress, and the crm Perfex CRM in php.</li>
+                      <li>Development of apps using Ionic with capacitor, and phonegap, for android and ios devices, using ReactJS as frontend language.</li>
+                      <li>Responsible for the synchronization process between different systems through the use of APIS and clean architectures.</li>
                     </ul>
                     
                     
