@@ -27,7 +27,9 @@ export const About = () => {
                     Programador apasionado e Ingeniero de Software, nacido en Venezuela. Soy un desarrollador Full Stack con ReactJS, PHP y MySQL como mi stack de tecnologías principales.
                     <br/>
                     <br/>
-                    A la fecha, poseo más 3 años de experiencia en distintos proyectos, manejando diversas tecnologías, por ejemplo: ReactJs, Jquery y VueJs en el frontend. Codeigniter, Laravel, Java, Python y Nodejs en el backend y finalmente ionic con capacitor para el desarrollo de aplicaciones móvil. Además, tengo conocimiento en machine learning e inteligencia artificial, experiencia en la implementación de arquitecturas limpias y DDD, junto con entendimiento en el uso de arduino UNO y sus distintos periféricos.
+                    A la fecha, poseo más 3 años de experiencia en distintos proyectos usando distintas tecnologías: ReactJs, Jquery y VueJs en el frontend. Codeigniter, Laravel, Java, Python y Nodejs en el backend, y finalmente Ionic con Capacitor para el desarrollo de aplicaciones móvil. 
+                    <br/>
+                    <br/>Además, tengo conocimiento en machine learning e inteligencia artificial, experiencia en la implementación de arquitecturas limpias y DDD, junto con entendimiento en el uso de arduino UNO y sus distintos periféricos.
                     <Col className="d-flex justify-content-center flex-wrap">
                       <div>
                         <a href="#contact">
