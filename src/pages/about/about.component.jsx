@@ -11,28 +11,28 @@ export const About = () => {
     return (
         <div id="about">
           <div className="about">
-            <h1 className="pt-3 text-center font-details pb-3 color-white">ABOUT ME!</h1>
+            <h1 className="pt-3 text-center font-details pb-3 color-white">ACERCA DE MÍ</h1>
             <Container>
               <Row className="pt-3 pb-5 align-items-center">
                 <Col xs={12} md={6}>
                   <Row className="justify-content-center mb-2">
-                    <Image className="profile justify-content-center" alt="profile" src={Hermes} thumbnail fluid />
+                    <Image className="profile justify-content-center" alt="profile" src="https://media.licdn.com/dms/image/C4E03AQH-aqXW2JvN9g/profile-displayphoto-shrink_800_800/0/1660523315844?e=1686787200&v=beta&t=WkDmo8hrCUXfxwewxjBWQ12SgS5Tei9TxDLlS0EFMTc" thumbnail fluid />
                   </Row>
                 </Col>
                 <Col xs={12} md={6}>
                   <Row className=" align-items-start p-2  rounded color-white">
-                    Hi there! I am <strong>&nbsp;Hermes Sánchez</strong>
-                    <br />A passionate programmer and a  software engineer, born and brought up in Venezuela. I am a Full Stack Web Developer with JS, PHP and MySQL as my tech stack.
-                    <br />
-                    I am currently pursuing a degree in computer engineering, but I already have 2 years of experience with the management of various technologies
-                    <br />
-                    I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
-                    <br /> <br />
+                    ¡Hola! Soy<strong>&nbsp;Hermes Sánchez</strong>
+                    <br/>
+                    <br/>
+                    Programador apasionado e Ingeniero de Software, nacido en Venezuela. Soy un desarrollador Full Stack con ReactJS, PHP y MySQL como mi stack de tecnologías principales.
+                    <br/>
+                    <br/>
+                    A la fecha, poseo más 3 años de experiencia en distintos proyectos, manejando diversas tecnologías, por ejemplo: ReactJs, Jquery y VueJs en el frontend. Codeigniter, Laravel, Java, Python y Nodejs en el backend y finalmente ionic con capacitor para el desarrollo de aplicaciones móvil. Además, tengo conocimiento en machine learning e inteligencia artificial, experiencia en la implementación de arquitecturas limpias y DDD, junto con entendimiento en el uso de arduino UNO y sus distintos periféricos.
                     <Col className="d-flex justify-content-center flex-wrap">
                       <div>
                         <a href="#contact">
                           <Button className="m-2" variant="outline-primary">
-                            Let's talk
+                            Hablemos
                           </Button>
                         </a>
                       </div>

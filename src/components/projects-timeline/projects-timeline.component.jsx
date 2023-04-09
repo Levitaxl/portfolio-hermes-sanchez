@@ -56,7 +56,7 @@ const customTheme = createTheme(themes.default, {
 const TimeLine = () => {
   return (
     <div id="projects">
-      <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
+      <h1 className="pt-3 text-center font-details-b pb-3">PROYECTOS</h1>
       <Timeline theme={customTheme}>
         <Events>
           {/* Project: Red-Social*/}
@@ -76,14 +76,14 @@ const TimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      PROJECT DETAILS
+                      DETALLES
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong>  Web application that has basic functionalities of a social network such as uploading images, giving likes and adding comments
+                        <strong>Descripción:</strong>  Aplicación web que cuenta con funcionalidades básicas de una red social como subir imágenes, dar likes y agregar comentarios
                         <hr />
-                        <strong>Tech used:</strong>
+                        <strong>Tecnologías:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
@@ -141,7 +141,7 @@ const TimeLine = () => {
                   href="https://github.com/Levitaxl/Red-Social"
                   target="_blank"
                 >
-                  SOURCE CODE
+                  CÓDIGO
                 </UrlButton>
               </div>
             </div>
@@ -163,14 +163,14 @@ const TimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      PROJECT DETAILS
+                      DETALLES
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Dela cream is a virtual ice cream shop where you can buy and sell ice cream to the general public.
+                        <strong>Descripción:</strong> Dela cream es una heladería virtual donde puedes comprar y vender helados al público en general.
                         <hr />
-                        <strong>Tech used:</strong>
+                        <strong>Tecnologías:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
@@ -227,7 +227,7 @@ const TimeLine = () => {
                   href="https://github.com/Levitaxl/Ecommerce"
                   target="_blank"
                 >
-                  SOURCE CODE
+                  CÓDIGO
                 </UrlButton>
               </div>
             </div>
@@ -250,15 +250,15 @@ const TimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      PROJECT DETAILS
+                      DETALLES
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> UNO game with RS232 connection.
+                        <strong>Descripción:</strong> Juego UNO con conexión RS232.
 
                         <hr />
-                        <strong>Tech used:</strong>
+                        <strong>Tecnologías:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
@@ -282,7 +282,7 @@ const TimeLine = () => {
                   href="https://github.com/Levitaxl/Proyecto-Redes-l"
                   target="_blank"
                 >
-                  SOURCE CODE
+                  CÓDIGO
                 </UrlButton>
               </div>
             </div>
@@ -305,15 +305,15 @@ const TimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      PROJECT DETAILS
+                      DETALLES
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Project that uses TCP/IP or UDP sockets for the transfer of information.
+                        <strong>Descripción:</strong> Proyecto que utiliza sockets TCP/IP o UDP para la transferencia de información.
 
                         <hr />
-                        <strong>Tech used:</strong>
+                        <strong>Tecnologías:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
@@ -337,7 +337,7 @@ const TimeLine = () => {
                   href="https://github.com/Levitaxl/Mini-aplicativo-distribuidos/tree/main/src/mini_aplicativo"
                   target="_blank"
                 >
-                  SOURCE CODE
+                  CÓDIGO
                 </UrlButton>
               </div>
             </div>
@@ -360,15 +360,15 @@ const TimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      PROJECT DETAILS
+                      DETALLES
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> PYTHON USER COMPETENCIES is a project that manages the handling of user information through json, using SOLID principles
+                        <strong>Descripción:</strong> PYTHON USER COMPETENCIES es un proyecto que gestiona el manejo de la información de los usuarios a través de json.
 
                         <hr />
-                        <strong>Tech used:</strong>
+                        <strong>Tecnologías:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
@@ -392,7 +392,7 @@ const TimeLine = () => {
                   href="https://github.com/Levitaxl/Proyecto-1-python/tree/main"
                   target="_blank"
                 >
-                  SOURCE CODE
+                  CÓDIGO
                 </UrlButton>
               </div>
             </div>
@@ -415,15 +415,15 @@ const TimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      PROJECT DETAILS
+                      DETALLES
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Ucabdito is a virtual food shop.
+                        <strong>Descripción:</strong> Ucabdito es una tienda de alimentación virtual.
 
                         <hr />
-                        <strong>Tech used:</strong>
+                        <strong>Tecnologías:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
@@ -473,14 +473,14 @@ const TimeLine = () => {
                   href="https://github.com/Levitaxl/Ucabdito"
                   target="_blank"
                 >
-                  SOURCE BACKEND
+                  CÓDIGO BACKEND
                 </UrlButton>
 
                 <UrlButton
                   href="https://github.com/Levitaxl/Proyecto-SQA-React"
                   target="_blank"
                 >
-                  SOURCE FRONTEND
+                  CÓDIGO FRONTEND
                 </UrlButton>
               </div>
             </div>

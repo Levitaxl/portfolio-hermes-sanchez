@@ -20,7 +20,7 @@ SwiperCore.use([Navigation]);
 export const Skills = () => {
   return (
     <div className="pt-3 pb-3" id="skills">
-      <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
+      <h1 className="text-center font-details-b pb-4">HABILIDADES TÉCNICAS</h1>
       <CardDeck className="justify-content-center box-desptok ">
         <Row className="d-flex justify-content-center" >
           {/* Frontend */}
@@ -87,7 +87,7 @@ export const Skills = () => {
             
              <Card className="focus mt-2 mb-2 ">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Hosting Platforms</Card.Title>
+                <Card.Title className="text-center  card-title">Plataformas Hosting</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   {skills.hostingPlatforms.map((skill, index) => (
@@ -103,7 +103,7 @@ export const Skills = () => {
                     
             <Card className="focus mt-1 mb-1">
               <Card.Body>
-                <Card.Title className="text-center  card-title">OTHERS</Card.Title>
+                <Card.Title className="text-center  card-title">Otros</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   {skills.versionControl.map((skill, index) => (

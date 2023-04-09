@@ -34,7 +34,7 @@ export const TitleMessage   = () => {
         <div className="titleMessage">
           <div className="heading">
             <div className="main text-center mb-3">
-              Hi, I am
+              Hola!, Soy
               <br />
               <span>
                 <strong>Hermes Sánchez</strong>
@@ -43,7 +43,7 @@ export const TitleMessage   = () => {
             <div className="sub">
               <Typewriter
                 options={{
-                  strings: ["Software Engineer","Developer", "Learner"],
+                  strings: ["Software Engineer","Developer", "Full Stack Developer"],
                   autoStart: true,
                   loop: true,
                   delay: 50
